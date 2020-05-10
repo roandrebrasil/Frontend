@@ -1,0 +1,92 @@
+.containerlogin {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.boxlogin {
+  width: 400px;
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.boxlogin h1 {
+  color: #22a7f0;
+}
+
+.boxlogin p.title {
+  font-size: 32px;
+  margin: 15px auto;
+}
+
+.boxlogin input {
+  width: 80%;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #dcdce6;
+  margin: 10px auto;
+  padding-left: 0 10px;
+}
+
+.button {
+  width: 80%;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background: #22a7f0;
+  color: #fff;
+  font-size: 18px;
+  transition: filter 0.2s;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+}
+.button:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 40px;
+  border-top: solid 1px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 p.txt-criarconta {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.box2 a {
+  margin: auto 5px;
+  font-size: 18px;
+  text-decoration: none;
+  font-style: italic;
+  color: #22a7f0;
+  transition: filter 0.2s;
+}
+
+.box2 a:hover {
+  filter: brightness(80%);
+}
+
+.label {
+  width: 80%;
+  display: flex;
+  justify-self: start;
+}
+
+.label2 {
+  width: 80%;
+  display: flex;
+  justify-self: start;
+}
